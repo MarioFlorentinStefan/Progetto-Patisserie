@@ -1,0 +1,33 @@
+/* Navbar Customization */
+.NavCustom{
+    background-color: #050505;
+    color:#6EBFA4;
+}
+.BtnUser{
+    border: none;
+}
+.icon{
+    font-size: 25px;
+}
+.CustomLogo{
+    width: 100px;
+    height: 100px;
+}
+.customLink{
+    color:#6EBFA4;
+}
+.customLink:hover{
+    border: 2px solid #6EBFA4;
+    border-radius: 5px;
+    background-color: linear-gradient(144deg, #BFFFE6, #6EBFA4 50%, #FAFAFA);
+}
+.customBgDrowdown{
+    background-color:#050505 ;
+    color:#6EBFA4;
+    border: 2px solid #6EBFA4;
+    border-radius: 8px;
+}
+.customBgDrowdown:hover{
+    background-color:#050505 ;
+    color:#6EBFA4;
+}

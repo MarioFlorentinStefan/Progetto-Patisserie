@@ -1,0 +1,66 @@
+body{
+    padding: 0px;
+    margin: 0px;    
+    font-family: 'Playfair Display', serif;
+}
+.hidden{
+    overflow-x: hidden;
+}
+/* Classi e tag di testo */
+ /* .h1,h2,h3{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style:normal;
+    
+ } */
+ /* .txCustom{
+    font-family: "Playwrite NZ Guides", cursive;
+    font-style: normal;
+    font-weight: 600;
+    color: #000;
+    padding: 12px 18px;
+    border-radius: 10px;
+    display: inline-block;
+} */
+/* custom margin  */
+.customMargin{
+    margin-top: 126px;
+}
+
+
+/* Footer Customization */
+.FooterCustom{
+    bottom:0px;
+    margin-top: 15px; 
+    background-color: #050505;
+}
+
+/* WelcomePage Customization */
+.CustomImage{
+    width: 400px;
+    height: 500px;
+}
+.CustomContainer{
+    border-right: 2px solid rgb(83, 83, 83);
+    
+}
+.CustomContainer1{
+    border-left: 2px solid rgb(83, 83, 83);
+    
+    
+}
+.CustomPadding{
+    padding-bottom: 25px;
+}
+/* Carousel Custom */
+.carouselCustom{
+    height: 300px;
+}
+/* Forms login & register */
+.customCardForms{
+    width: 270px;
+    height: 350px;
+    background-color: mintcream;
+}
+
+

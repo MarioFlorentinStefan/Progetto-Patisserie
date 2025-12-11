@@ -1,0 +1,89 @@
+.paddingCustom{
+    padding-top: 126px;
+}
+/* Height custom */
+.vh{
+    height: 75vh;
+}
+/* Immagine verticale grande */
+.imgVG{
+    background-image: url(../../public/images/fotoVerticaleGrande1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Immagini verticali piccole */
+.imgVP1{
+    background-image: url(../../public/images/fotopiccolaverticale1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgVP2{
+    background-image: url(../../public/images/fotopiccolaverticale2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Immagine Orizzontale */
+.imgOG{
+    background-image: url(../../public/images/fotoOrizzontale.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* SEARCH FORM */
+
+.searchInput {
+    padding: 12px 16px;
+    width: 240px;
+    background: #000;
+    color: #fff;
+    border: 2px solid #98ffcc;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow:
+        0 0 6px #98ffcc33,
+        0 0 12px #98ffcc22;
+}
+
+.searchInput::placeholder {
+    color: #98ffccaa;
+}
+
+.searchInput:focus {
+    transform: scale(1.03);
+    box-shadow:
+        0 0 10px #98ffcc99,
+        0 0 20px #98ffcc66,
+        0 0 30px #98ffcc44;
+}
+
+.searchBtn {
+    padding: 12px 20px;
+    background: #98ffcc;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow:
+        0 0 6px #98ffcc55,
+        0 0 12px #98ffcc44;
+}
+
+.searchBtn:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow:
+        0 0 10px #98ffccaa,
+        0 0 20px #98ffcc88;
+}
+
+.searchBtn:active {
+    transform: scale(0.97);
+}
